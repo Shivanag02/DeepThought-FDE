@@ -1,0 +1,19 @@
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Local environment and editor files
+.vscode/
+.DS_Store
